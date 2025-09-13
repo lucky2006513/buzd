@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dahezi {
+            display: flex;
+            /* 
+            这是一个2维布局，也就是只有x轴和y轴 
+            我在开启了flex布局后，就会把里面的子元素按照x轴的方向进行排列，默认是在x轴从左到右排列
+            */
+            /* flex-direction:column; 让子元素在y轴方向排列 */
+            flex-direction: row-reverse; 
+            /* 让子元素在x轴方向从右到左排列 */
+        }
+    </style>
+</head>
+<body>
+    <div class="dahezi">
+        <div class="zihezi">
+            <p>盒子1</p>
+        </div>
+        <div class="zihezi">
+            <p>盒子2</p>
+        </div>
+        <div class="zihezi">
+            <p>盒子3</p>
+        </div>
+    </div>
+</body>
+</html>
