@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			*{
+				margin:0;
+				padding:0;
+			}
+			.weihe{
+				width: 700px;
+				max-width: 800px;
+				height: 300px;
+				background-color: #ecf0f1;
+				margin: 0 auto;
+				display: flex;
+				gap:20px;
+				padding: 20px;;
+			}
+			.hezi1{
+				/* background-color: #ffaaff; */
+				flex-grow: 2;
+				display: flex;
+				flex-direction: column;
+				gap:20px;
+				max-width: 466px;
+			}
+			.hezi2{
+				/* background-color: blanchedalmond; */
+				flex-grow:1;
+				max-width: 233px;
+			}
+			.lanse{
+				background-color: blue;
+				flex-grow: 1;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.lge{
+				/* background-color: aqua; */
+				flex-grow: 2;
+				display: flex;
+				gap:20px;
+			}
+			.lge1{
+				background-color: greenyellow;
+				flex-grow: 3;
+				padding: 20px;
+			}
+			.lge2{
+				background-color: #aa00ff;
+				flex-grow:1;
+				padding: 20px;
+			}
+			
+			.box{
+				background-color: red;
+				padding: 20px;
+				
+			}
+			
+			.b2{
+				margin-top: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="weihe">
+			<div class='hezi1'>
+				<div class="lanse">网站标题</div>
+				<div class="lge">
+					<div class="lge1">
+						<h3>主要内容</h3>
+						<p>这是一个使用Flex布局创建的嵌套结构示咧</p>
+					</div>
+					<div class="lge2">
+						<h3>侧边内容</h3>
+						<p>嵌套在主要内容区域内的侧边栏</p>
+					</div>
+				</div>
+				<div class="lanse">页脚信息</div>
+			</div>
+			<div class="hezi2">
+				<div class="box b1">
+					<h3>小工具1</h3>
+					<p>侧边栏的第二个小工具</p>
+				</div>
+				<div class="box b2">
+					<h3>小工具1</h3>
+					<p>侧边栏的第二个小工具</p>
+				</div>
+			</div>
+		</div>
+
+		
+	</body>
+</html>
