@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.shenla1{
+				display: flex;
+				width: 500px;
+				height: 100px;
+				background: #bebebe;
+				gap: 10px;
+			}
+			.bili{
+				height: 80px;
+				justify-content: space-between;
+				background-color: aquamarine;
+				
+				text-align: center;
+			}
+			.b1{
+				flex-grow:1;
+			}
+			.b2{
+				flex-grow:2;
+			}
+			.b3{
+				flex-grow:3;
+			}
+			
+			.bili2{
+				width: 300px;
+				background-color: #55aaff
+			}
+			
+			.b4{
+				flex-shrink: 1;
+			}
+			.b5{
+				flex-shrink: 2;
+			}
+			.b6{
+				flex-shrink: 3;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="shenla1 ">
+			<div class="bili b1">grow:1</div>
+			<div class="bili b2">grow:2</div>
+			<div class="bili b3">gorw:3</div>
+		</div>
+		<div class="shenla1 ">
+			<div class="bili2 b4">grow:1</div>
+			<div class="bili2 b5">grow:2</div>
+			<div class="bili2 b6">grow:3</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>单个子元素排序</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.xm1{
+				display: flex;
+				padding:10px;
+				gap:10px;
+				
+			}
+			.itme:nth-child(1) {background:green;}
+			.itme:nth-child(2){background: red;}
+			.itme:nth-child(3){background: blue;}
+			
+			.itme-1{order:3;}
+			.itme-2{order:2;}
+			.itme-3{order:1;}
+			
+		</style>
+	</head>
+	<body>
+		<div class="xm1">
+		<div class="itme itme-1">项目1</div>
+		<div class="itme itme-2">项目2</div>
+		<div class="itme itme-3">项目3</div>
+			
+		</div>
+		
+	</body>
+</html>

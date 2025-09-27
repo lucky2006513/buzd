@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Flex单项目对齐</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.z1{
+				display: flex;
+				background-color: #eaeaea;
+				width: 800px;
+				height: 800px;
+			}
+			
+			.zz{
+				padding: 20px;
+			}
+			.zz1{
+				background-color: #5500ff;
+				align-self: flex-start;
+							}
+			.zz2{
+				background-color: aqua;
+				align-self: center;
+			}
+			.zz3{
+				background-color:#f0f ;
+				align-self: flex-end;
+			}
+			.zz4{
+				background-color: aquamarine;
+				align-self: stretch;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="z1">
+			<div class="zz zz1">顶部对齐</div>
+			<div class="zz zz2">居中对齐</div>
+			<div class="zz zz3">底部对齐</div>
+			<div class="zz zz4">拉伸填充</div>
+		</div>
+	</body>
+</html>

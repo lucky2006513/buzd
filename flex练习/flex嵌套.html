@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>嵌套</title>
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			
+			.wai{
+				width: 700px;
+				height: 250px;
+				margin: 0 auto;
+				background-color: #ecf0f1;
+				display: flex;
+				gap: 20px;
+				padding: 20px;
+			}
+			.box{
+				flex: 1;
+				background-color: #bdc3c7;
+				display: flex;
+				flex-direction: column;
+				/* flex容器子元素从上到下排序 */
+				gap: 10px;
+				padding: 10px;
+			}
+			.box1{
+				padding: 20px;
+				display: flex;
+				justify-content: center;
+			}
+			.he1{background-color: #55aaff}
+			.he2{background-color: #00ff00}
+			.he3{background-color: #ff0000;}
+			.he4{background-color: #55aaff;}
+			.he5{background-color: #55ff7f;}
+			.he6{background-color: #ff0000;}
+		</style>
+	</head>
+	<body>
+		<div class="wai">
+			<div class="box">
+				<div class="box1 he1">嵌套项目1</div>
+				<div class="box1 he2">嵌套项目2</div>
+			</div>
+			<div class="box">
+				<div class="box1 he3">嵌套项目3</div>
+				<div class="box1 he4">嵌套项目4</div>
+				<div class="box1 he5">嵌套项目5</div>
+			</div>
+			<div class="box">
+				<div class="box1 he6">嵌套项目6</div>
+			</div>
+		</div>
+	</body>
+</html>

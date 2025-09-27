@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.dahezi{
+			width: 800px;
+			height: 1000px;
+			background-color: #00aaff;
+			max-width: 1000px;
+		}
+		
+		
+		.zhonghezi1{
+			height: 150px;
+			/* background-color: aliceblue; */
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap:10px;
+			color: #fff;
+		}
+		.zhonghezi2{
+			height: 500px;
+			max-height: 500px;
+			/* background-color: aquamarine; */
+			display: flex;
+			width: 800px;
+		}
+		
+		/* 登录介绍区 */
+		.xiaohezi1{
+			flex-grow: 1;
+			background-color: #e6e6e6;
+			padding: 40px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			max-width: 400px;
+			box-sizing: border-box;
+			height: 500px;
+			
+		}
+		.xiaohezi1 h2{
+			padding: 20px;
+		}
+		.xiaohezi1 p{
+			padding-bottom: 20px;
+		}
+		.xiaoxiaohezi{
+			padding: 40px;
+			/* background-color: #fff; */
+			width:420px;
+			flex-direction: column;
+			display: flex;
+			gap: 20px;
+			align-items: center;
+		}
+		.xx1{
+			display: flex;
+			gap:20px;
+		}
+		.xx1 div{
+			padding:40px;
+			background-color: #fff;
+			border-radius: 10px;
+		}
+		
+		/* 登录区 */
+		.xiaohezi2{
+			flex-grow: 1;
+			background-color: #fff;
+			max-width: 400px;
+			max-height: 420px;
+			display: flex;
+			gap:20px;
+			padding:40px;
+			flex-direction: column;
+	
+		}
+		.xx21{
+			height: 50px;
+			/* background-color: #00aaff */;
+			display: flex;
+		}
+		.xx21 div{
+			flex-grow: 1;
+			display: flex;
+			justify-content: center;
+			align-items: center;	
+		}
+		.xx21 div:hover{
+			 border-bottom: 2px solid blue;
+			 
+		}
+		.xx21 p:hover{
+			color: blue;
+		}
+		
+	
+		.xx22{
+			height: 80px;
+		/* 	background-color: #00aaff; */
+			gap:5px;
+			display: flex;
+			flex-direction: column;
+		}
+		.xx22 input{
+			width: 320px;
+			height: 30px;
+			border-radius: 5px;
+		}
+		.xx23{
+			height: 25px;
+			/* background-color: #00aaff; */
+			justify-content: space-between;
+			display: flex;
+			
+		}
+		.xx23 a{
+			text-decoration: none;
+			color: #00aaff;
+		}
+		.xx24{
+			height: 50px;
+			background-color: #00aaff;
+			justify-content: center;
+			display: flex;
+			align-items: center;
+			border-radius:5px;
+			color: aliceblue;
+			
+		}
+	</style>
+</head>
+<body>
+		<div class="dahezi">
+			<div class="zhonghezi1">
+				<h2>Flex布局登录注册系统</h2>
+				<p>体验Flex嵌套布局的强大功能</p>
+			</div>
+			
+			<div class="zhonghezi2">
+				
+				<div class="xiaohezi1">
+					<h2>欢迎使用我们的平台</h2>
+					<p>这是一个展示Flex嵌套布局的登录注册页面，使用了多层Flex容器创建响应式设计</p>
+					<div class="xiaoxiaohezi">
+						<div class="xx1">
+							<div>嵌套布局</div>
+							<div>响应布局</div>
+						</div>
+						
+						
+						<div class="xx1">
+							<div>完美对齐</div>
+							<div>灵活伸缩</div>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="xiaohezi2">
+					<div class="xx21">
+						<div><p>登录</p></div>
+						<div><p>注册</p></div>
+					</div>
+					<div class="xx22">
+						<p>电子邮箱</p>
+						<input  type="email" class="form-input" placeholder="请输入您的电子邮箱"  required/> </div>
+					<div class="xx22">
+						<p>密码</p>
+						<input  type="password" class="form-input" placeholder="请输入您的密码"  required/> 
+					</div>
+					<div class="xx23">
+						<div>
+							<input type="checkbox" style="margin-right: 5px;">记住我
+						</div>
+						<a href="#">忘记密码？</a>
+					</div>
+					<div class="xx24">
+						<p>登录</p>
+					</div>
+				</div>
+			</div>
+		</div>
+</body>
+</html>
